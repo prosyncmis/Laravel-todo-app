@@ -4,7 +4,7 @@
 	<div class="container">
 	<h1>Edit the Task</h1>
 
-<form method="POST" action="/task/{{ $task->id }}">
+<form method="POST" action="../task/{{ $task->id }}">
 
 	<div class="form-group">
 		<textarea name="description" class="form-control">{{$task->description }}</textarea>	
